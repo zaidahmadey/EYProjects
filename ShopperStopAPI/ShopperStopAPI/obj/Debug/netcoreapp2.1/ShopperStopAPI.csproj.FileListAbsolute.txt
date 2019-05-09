@@ -1,0 +1,14 @@
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\bin\Debug\netcoreapp2.1\ShopperStopAPI.deps.json
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\bin\Debug\netcoreapp2.1\ShopperStopAPI.runtimeconfig.json
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\bin\Debug\netcoreapp2.1\ShopperStopAPI.runtimeconfig.dev.json
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\bin\Debug\netcoreapp2.1\ShopperStopAPI.dll
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.csprojAssemblyReference.cache
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.csproj.CoreCompileInputs.cache
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.RazorAssemblyInfo.cache
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.RazorAssemblyInfo.cs
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.AssemblyInfoInputs.cache
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.AssemblyInfo.cs
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.RazorTargetAssemblyInfo.cache
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\bin\Debug\netcoreapp2.1\ShopperStopAPI.pdb
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.dll
+C:\zaid\ShopperStop\EYProjects\ShopperStopAPI\ShopperStopAPI\obj\Debug\netcoreapp2.1\ShopperStopAPI.pdb
