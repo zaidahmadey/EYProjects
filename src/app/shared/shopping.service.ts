@@ -6,4 +6,10 @@ import { Injectable } from '@angular/core';
 export class ShoppingService {
 
   constructor() { }
+
+  SaveData(test){
+     console.log(test);
+  }
 }
+
+

@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { HomeComponent } from './home/home.component';
-//import {} from '@angular/common/http'
+
 @NgModule({
   declarations: [
     AppComponent,

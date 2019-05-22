@@ -1,5 +1,6 @@
 export class AddProductModel{
     productID:string;
-    productName:string;
-    
+    ProductName:string;
+    Quantity:Number;
+    isActive:boolean;
 }
