@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ShopperStop.Common
 {
-  public class CommonAutoFac<classObj,interfaceObj>
+  public  class CommonAutoFac<classObj,interfaceObj>
   {
-    public interfaceObj GetAtuFacInstance()
+    public static interfaceObj GetAtuFacInstance()
     {
       var builder = new ContainerBuilder();
       builder.RegisterType<classObj>().As<interfaceObj>();
