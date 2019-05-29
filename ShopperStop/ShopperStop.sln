@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopperStop", "ShopperStop\ShopperStop.csproj", "{BE217DD9-C547-4265-9862-3B1C34CECCFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopperStop", "ShopperStop\ShopperStop.csproj", "{BE217DD9-C547-4265-9862-3B1C34CECCFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temp", "temp\temp.csproj", "{0EEA1DC7-7FD8-436E-993D-237205C60A5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BE217DD9-C547-4265-9862-3B1C34CECCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE217DD9-C547-4265-9862-3B1C34CECCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE217DD9-C547-4265-9862-3B1C34CECCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEA1DC7-7FD8-436E-993D-237205C60A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEA1DC7-7FD8-436E-993D-237205C60A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEA1DC7-7FD8-436E-993D-237205C60A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEA1DC7-7FD8-436E-993D-237205C60A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

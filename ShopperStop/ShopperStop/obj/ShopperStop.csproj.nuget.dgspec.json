@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[4.9.2, )"
             },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",

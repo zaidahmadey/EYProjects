@@ -1,10 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Cors.Internal;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -25,6 +26,16 @@ namespace ShopperStop
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+      services.AddCors(options =>
+      {
+        options.AddPolicy("EnableCORS", builder => {
+          builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowCredentials().Build();
+        });
+      });
+      services.AddMvc(options =>
+      {
+        options.Filters.Add(new CorsAuthorizationFilterFactory("EnableCORS"));
+      });
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,8 +45,9 @@ namespace ShopperStop
       {
         app.UseDeveloperExceptionPage();
       }
-
+      app.UseMvcWithDefaultRoute();
       app.UseMvc();
+      app.UseCors("EnableCORS");
     }
   }
 }

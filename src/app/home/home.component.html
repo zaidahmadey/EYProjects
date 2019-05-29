@@ -39,38 +39,7 @@
 				</div>
 			</div>
 		</div>
-		<nav class="main-navbar">
-			<div class="container">
-				<!-- menu -->
-				<ul class="main-menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Women</a></li>
-					<li><a href="#">Men</a></li>
-					<li><a href="#">Jewelry
-						<span class="new">New</span>
-					</a></li>
-					<li><a href="#">Shoes</a>
-						<ul class="sub-menu">
-							<li><a href="#">Sneakers</a></li>
-							<li><a href="#">Sandals</a></li>
-							<li><a href="#">Formal Shoes</a></li>
-							<li><a href="#">Boots</a></li>
-							<li><a href="#">Flip Flops</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Pages</a>
-						<ul class="sub-menu">
-							<li><a href="./product.html">Product Page</a></li>
-							<li><a href="./category.html">Category Page</a></li>
-							<li><a href="./cart.html">Cart Page</a></li>
-							<li><a href="./checkout.html">Checkout Page</a></li>
-							<li><a href="./contact.html">Contact Page</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Blog</a></li>
-				</ul>
-			</div>
-		</nav>
+		
 	</header>
 	<!-- Header section end -->
 
@@ -255,10 +224,32 @@
 				<li><a href="#">LEGGINGS</a></li>
 			</ul>
 			<div class="row">
-				<div class="col-lg-3 col-sm-6">
+					<!-- 
+						<option *ngFor="let opt of categoriesLocal" 
+						 [value]="opt['categoryId']"  >
+							{{opt['categoryName']}}</option>
+					  -->
+					  
+					<div class="col-lg-3 col-sm-6" *ngFor="let opt of getProductListObj" >
+							{{opt['UnitPrice']}}
+							<div class="product-item">
+								<div class="pi-pic">
+									<img src="http://localhost:5000/api/products/getproductimage/94" alt="">
+									<div class="pi-links">
+										<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
+										<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
+									</div>
+								</div>
+								<div class="pi-text">
+									<h6>{{opt['UnitPrice']}}</h6>
+									<p> {{opt['ProductName']}}</p>
+								</div>
+							</div>
+						</div>
+				<!-- <div class="col-lg-3 col-sm-6">
 					<div class="product-item">
 						<div class="pi-pic">
-							<img src="../../assets/img/product/5.jpg" alt="">
+							<img src="http://localhost:5000/api/products/getproductimage/92" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -375,8 +366,8 @@
 							<p>Flamboyant Pink Top </p>
 						</div>
 					</div>
-				</div>
-			</div>
+				</div> -->
+			</div> 
 			<div class="text-center pt-5">
 				<button class="site-btn sb-line sb-dark">LOAD MORE</button>
 			</div>

@@ -35,6 +35,7 @@ namespace ShopperStop.DataLayer
 
     public void Insert(T entity)
     {
+      dbset = context.Set<T>();
       dbset.Add(entity);
       context.SaveChanges();
     }
