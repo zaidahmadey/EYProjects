@@ -225,24 +225,23 @@
 			</ul>
 			<div class="row">
 					<!-- 
-						<option *ngFor="let opt of categoriesLocal" 
-						 [value]="opt['categoryId']"  >
+						 <option *ngFor="let opt of categoriesLocal" 
+						    [value]="opt['categoryId']"  >
 							{{opt['categoryName']}}</option>
-					  -->
+					-->
 					  
 					<div class="col-lg-3 col-sm-6" *ngFor="let opt of getProductListObj" >
-							{{opt['UnitPrice']}}
 							<div class="product-item">
 								<div class="pi-pic">
-									<img src="http://localhost:5000/api/products/getproductimage/94" alt="">
+									<img src="http://localhost:5000/api/products/getproductimage/{{opt['productId']}}" alt="">
 									<div class="pi-links">
 										<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 										<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
 									</div>
 								</div>
 								<div class="pi-text">
-									<h6>{{opt['UnitPrice']}}</h6>
-									<p> {{opt['ProductName']}}</p>
+									<h6>${{opt['unitPrice']}},00</h6>
+									<p> {{opt['productName']}} </p>
 								</div>
 							</div>
 						</div>

@@ -3,7 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Categories } from '../models/categories';
 import { ReturnResponse } from '../models/returnresponse';
-import { HomeModel } from '../models/home.model';
+import { HomeModel } from '../models/home';
 @Injectable({
   providedIn: 'root'
 })
